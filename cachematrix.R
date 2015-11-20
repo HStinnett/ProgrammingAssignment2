@@ -1,5 +1,5 @@
 ##makeCacheMatrix is a function to store cached data
-makeCacheMatrix <- function(x = numeric()) {
+makeCacheMatrix <- function(x = matrix()) {
   ##sets the initial value of m to null
   m <- NULL
   ##changes the vector in the function to the new value (calculated by cacheSolve)
